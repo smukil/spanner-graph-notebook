@@ -23,7 +23,7 @@ import json
 from google.cloud.spanner_v1.types import StructType, Type, TypeCode
 
 from spanner_graphs.conversion import get_nodes_edges
-from spanner_graphs.database import MockSpannerDatabase
+from spanner_graphs.database_utils import MockSpannerDatabase
 
 
 class TestConversion(unittest.TestCase):
